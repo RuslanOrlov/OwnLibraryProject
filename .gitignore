@@ -5,6 +5,7 @@ target/
 !**/src/test/**/target/
 
 ### My settings ###
+logs/
 *.class
 *.war
 *.jar
