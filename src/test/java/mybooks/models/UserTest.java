@@ -1,4 +1,4 @@
-package mybooks;
+package mybooks.models;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -10,9 +10,6 @@ import java.util.List;
 import org.junit.jupiter.api.Test;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
-import mybooks.models.TemporaryUserForRegistration;
-import mybooks.models.User;
-import mybooks.models.UserAuthorityTypes;
 import mybooks.models.UserAuthorityTypes.AuthorityType;
 
 public class UserTest {
